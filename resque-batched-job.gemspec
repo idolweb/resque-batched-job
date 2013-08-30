@@ -6,6 +6,7 @@ Gem::Specification.new do |s|
   
   s.name        = "resque-batched-job"
   s.version     = "#{Resque::Plugins::BatchedJob::VERSION}"
+  s.license     = 'MIT'
   s.date        = Time.now.strftime('%Y-%m-%d')
   s.homepage    = "https://github.com/drfeelngood/resque-batched-job"
   s.authors     = ["Daniel Johnston"]
@@ -23,7 +24,7 @@ DESC
                     'lib/resque/plugins/batched_job.rb',
                     'lib/resque/plugins/batched_job/version.rb' ]
 
-  s.add_dependency "resque", ">= 1.10.0"
+  s.add_dependency "resque", "~> 2.0.0.pre.1"
 
   s.add_development_dependency "turn"
   s.add_development_dependency "minitest"

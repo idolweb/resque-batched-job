@@ -1,4 +1,6 @@
 *.gem
 .rvmrc
+.ruby-version
+.ruby-gemset
 doc
 .yardoc
